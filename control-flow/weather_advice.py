@@ -2,7 +2,7 @@ weather = ["sunny", "rainy", "cold"]
 weather = input("What's the weather like today? (sunny/rainy/cold): ")
 
 
-if weather.lower() == 'sunny':
+if weather.lower() == "sunny":
     print("Wear a t-shirt and sunglasses")
 elif weather.lower() == "rainy":
     print("Don't forget your umbrella and a raincoat.")
