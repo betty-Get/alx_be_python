@@ -1,5 +1,5 @@
-weather = ["sunny", "rainy", "cold"]
-weather = input("What's the weather like today? (sunny/rainy/cold): ")
+# weather = ["sunny", "rainy", "cold"]
+weather = str(input("What's the weather like today? (sunny/rainy/cold): "))
 
 
 if weather.lower() == "sunny":
