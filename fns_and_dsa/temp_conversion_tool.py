@@ -10,7 +10,7 @@ if temp_input == f:
 elif temp_input == c:
     convert_to_fahrenheit(user_input)
 else:
-    print("please input a proper Temprature")
+    print("Invalid temperature. Please enter a numeric value.")
 
 
 def convert_to_celsius(fahrenheit):
